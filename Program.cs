@@ -67,7 +67,7 @@ namespace ListReference
             };
 
             Console.WriteLine("\n*************************************************************");
-            Console.WriteLine("Value Types Explored");
+            Console.WriteLine("Value Types in a list explored");
             Console.WriteLine("*************************************************************\n");
 
              Console.WriteLine("The first person in the list: " + listOfPeopleValue[0].firstName + " and the fourth person: " +
@@ -82,6 +82,10 @@ namespace ListReference
 
             Console.WriteLine("The first person in the list: " + listOfPeopleValue[0].firstName + " and the third person: " +
             listOfPeopleValue[2].firstName + " are the same? " + listOfPeopleValue[0].Equals(listOfPeopleValue[2]));
+
+            Console.WriteLine("\n*************************************************************");
+            Console.WriteLine("More Value Types");
+            Console.WriteLine("*************************************************************\n");
 
             var mike = new PersonValueType();
             mike.id = 1;
