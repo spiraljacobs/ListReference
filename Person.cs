@@ -1,10 +1,10 @@
 namespace ListReference 
 {
-    public class Person 
+    public class PersonReferenceType 
     {   public int Id { get; set;}
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public Person(int id, string firstName, string lastName)
+        public PersonReferenceType(int id, string firstName, string lastName)
         {
             Id = id;
             FirstName = firstName;

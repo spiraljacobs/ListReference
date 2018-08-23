@@ -1,6 +1,6 @@
 namespace ListReference
 {
-    public struct PersonValue
+    public struct PersonValueType
     {
         public int id;
         public string firstName;
